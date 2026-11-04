@@ -1,0 +1,10 @@
+### Opprett kunde
+POST http://localhost:8080/api/customers
+Content-Type: application/json
+
+{
+  "name": "Ola Nordmann",
+  "phone": "12345678",
+  "email": "ola@example.com",
+  "note": "Fast kunde"
+}
